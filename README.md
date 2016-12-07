@@ -1,4 +1,4 @@
-## memo_game
+## memory_game
 made in vue.js 2.0
 
 ## Setup
