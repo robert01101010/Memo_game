@@ -1,0 +1,55 @@
+  @function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return $remSize * 1rem;
+  }
+
+  @mixin font-size($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+  }
+  
+  @mixin bp-large {
+    @media only screen and (max-width: 1152px) {
+      @content;
+    }
+  }
+  @mixin bp-medium {
+    @media only screen and (max-width: 680px) {
+      @content;
+    }
+  }
+  @mixin bp-small {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
+  @mixin bp-very-small {
+    @media only screen and (max-width: 380px) {
+      @content;
+    }
+  }
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
