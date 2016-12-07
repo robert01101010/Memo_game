@@ -12,3 +12,9 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
+
+
+### License
+
+[MIT](http://opensource.org/licenses/MIT)
