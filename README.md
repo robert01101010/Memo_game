@@ -15,8 +15,7 @@ npm run build
 
 ## Screenshot
 
-![](src/assets/demo.gif?1477232397)
-
+![](src/assets/J71CjzuJyNoje.gif/)
 
 ### License
 
