@@ -1,6 +1,10 @@
 ## memory_game
 made in vue.js 2.0
 
+## Screenshot
+
+![](src/assets/J71CjzuJyNoje.gif/)
+
 ## Setup
 ``` bash
 # install dependencies
@@ -12,10 +16,6 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-## Screenshot
-
-![](src/assets/J71CjzuJyNoje.gif/)
 
 ### License
 
