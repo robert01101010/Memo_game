@@ -228,7 +228,7 @@
       width:100%;
     } 
     &__front {
-      background-image: url('assets/card.jpg');
+      background-image: url('https://s6.postimg.org/f1ltv5qox/card.jpg');
       z-index: 2;
       &--transform {
         transform: rotateY(180deg);
