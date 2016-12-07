@@ -1,2 +1,2 @@
 # memo_game
-game made in vue.js 2.0
+made in vue.js 2.0
