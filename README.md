@@ -13,6 +13,9 @@ npm run dev
 npm run build
 ```
 
+## Screenshot
+
+![](src/assets/demo.gif?1477232397)
 
 
 ### License
