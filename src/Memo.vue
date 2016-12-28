@@ -178,6 +178,16 @@
   @import "./style/variables.scss";
   @import "./style/mixin.scss";
   
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 0.7;
+    }
+  }
+
   .memo {
     display: flex;
   }
@@ -185,13 +195,14 @@
     margin-top: $margin-top;
     background: $cards-container-background;
     width: 75%;
+    max-width: 1000px;
     margin-left: 5%; 
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     perspective: 1000px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px; 
   }
   .memo-card {
     width: calc(16.6666% - 40px);
@@ -285,10 +296,10 @@
     border-radius: 5px;
     border: 1px solid black;
     visibility: hidden;
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards; 
     &--active {
       visibility: visible;
+      animation: 2s fadeIn;
+      animation-fill-mode: forwards; 
     }
     &__win {
       background: white;
