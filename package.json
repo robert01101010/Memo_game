@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
-    "postbuild": "python createSampleApp.py 'dist' 'static'",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {

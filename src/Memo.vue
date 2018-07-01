@@ -2,8 +2,8 @@
   <div class="memo">
     <div class="memo-cards-container">
       <div class="memo-card" v-for="cardPath in cards" @click="showBottom(cardPath, $event)">
-        <button class="memo-card__front" ref="front"></button>
-        <button class="memo-card__back" :style="getStyleForBack(cardPath)" disabled></button>
+        <button class="memo-card__front" ref="front" :style="getStyleForCard('./assets/cards-avers/card.png')"></button>
+        <button class="memo-card__back" :style="getStyleForCard(cardPath)" disabled></button>
       </div>
     </div>
     <div class="memo-aside">
@@ -92,7 +92,6 @@
           }
         }
         this.cards = this.mixArray(paths);
-        return;
       },
       mixArray(array) {
         const arr = array;
@@ -172,7 +171,7 @@
         }
         this.initLevel(gameLevel);
       },
-      getStyleForBack(cardPath) {
+      getStyleForCard(cardPath) {
         // eslint-disable-next-line
         const path = require(cardPath);
         return { backgroundImage: `url(${path})` };
@@ -248,7 +247,6 @@
       width: 100%;
     }
     &__front {
-      background-image: url('assets/card.png');
       z-index: 2;
       &--transform {
         transform: rotateY(180deg);
