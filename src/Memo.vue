@@ -3,7 +3,7 @@
     <div class="memo-cards-container">
       <div class="memo-card" v-for="cardPath in cards" @click="showBottom(cardPath, $event)">
         <button class="memo-card__front" ref="front"></button>
-        <button class="memo-card__back" v-bind:style="{ backgroundImage: 'url(' + cardPath + ')'}" disabled></button>
+        <button class="memo-card__back" :style="getStyleForBack(cardPath)" disabled></button>
       </div>
     </div>
     <div class="memo-aside">
@@ -17,7 +17,7 @@
       <button class="memo-aside__button memo-aside__button--level" @click="reset('medium')">Medium</button>
       <div class="memo-aside-lastScores">
         Scores Table
-        <ul class="memo-aside-lastScores" v-for="score in lastScores"> 
+        <ul class="memo-aside-lastScores" v-for="score in lastScores">
           <li class="memo-aside-lastScores__singleScore">turns {{score.turn}} points {{score.value}}</li>
         </ul>
       </div>
@@ -54,18 +54,20 @@
     },
     methods: {
       initLevel(gameLevel) {
+        const directory = './assets/cards-reverses/';
+
         const easyPictures = [
-          'https://s6.postimg.org/bskqajpst/image.png',
-          'https://s6.postimg.org/65odd2na5/image.png',
-          'https://s6.postimg.org/5hfiu4okd/image.png',
-          'https://s6.postimg.org/ob1br4msd/image.png',
-          'https://s6.postimg.org/sy7dswa59/image.png',
-          'https://s6.postimg.org/bm717ggnx/image.png'];
+          `${directory}angular.svg`,
+          `${directory}backbone.svg`,
+          `${directory}graphql.svg`,
+          `${directory}js.svg`,
+          `${directory}vuejs.svg`,
+          `${directory}npm.svg`];
 
         const mediumPictures = (() => {
           const restPictures = [
-            'https://s6.postimg.org/fjuawv3h9/image.png',
-            'https://s6.postimg.org/gnef8to4d/image.jpg'];
+            `${directory}nodejs.svg`,
+            `${directory}react.svg`];
           return restPictures.concat(easyPictures);
         })();
 
@@ -170,6 +172,11 @@
         }
         this.initLevel(gameLevel);
       },
+      getStyleForBack(cardPath) {
+        // eslint-disable-next-line
+        const path = require(cardPath);
+        return { backgroundImage: `url(${path})` };
+      },
     },
   };
 </script>
@@ -177,7 +184,7 @@
   @import "./style/reset.scss";
   @import "./style/variables.scss";
   @import "./style/mixin.scss";
-  
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -191,19 +198,21 @@
   .memo {
     display: flex;
   }
+
   .memo-cards-container {
     margin-top: $margin-top;
     background: $cards-container-background;
     width: 75%;
     max-width: 1000px;
-    margin-left: 5%; 
+    margin-left: 5%;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     perspective: 1000px;
-    border-radius: 10px 0 0 10px; 
+    border-radius: 10px 0 0 10px;
   }
+
   .memo-card {
     width: calc(16.6666% - 40px);
     @include bp-large {
@@ -230,16 +239,16 @@
     &__front, &__back {
       border-radius: 12px;
       backface-visibility: hidden;
-      background-size: 100% 100%;    
-      background-repeat: no-repeat;      
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
       position: absolute;
       top: 0;
       left: 0;
-      height:100%;
-      width:100%;
-    } 
+      height: 100%;
+      width: 100%;
+    }
     &__front {
-      background-image: url('https://s6.postimg.org/f1ltv5qox/card.jpg');
+      background-image: url('assets/card.svg');
       z-index: 2;
       &--transform {
         transform: rotateY(180deg);
@@ -249,6 +258,7 @@
       }
     }
   }
+
   .memo-aside {
     background: $aside-background;
     margin-top: $margin-top;
@@ -287,6 +297,7 @@
       }
     }
   }
+
   .memo-score {
     position: absolute;
     background: black;
@@ -299,7 +310,7 @@
     &--active {
       visibility: visible;
       animation: 2s fadeIn;
-      animation-fill-mode: forwards; 
+      animation-fill-mode: forwards;
     }
     &__win {
       background: white;
@@ -323,6 +334,7 @@
       }
     }
   }
+
   .memo-aside-lastScores {
     color: white;
     font-size: 18px;
