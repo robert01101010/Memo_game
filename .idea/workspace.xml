@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd886cc-056f-4d33-9525-c9cfc6a26a34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/css/app.6372ae5160ff5b195d0c6531ae83d6a8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/css/app.6372ae5160ff5b195d0c6531ae83d6a8.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/img/J71CjzuJyNoje.78ffe29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/img/card.eaeabaa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/js/app.d6dd3920dc66da2ecb99.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/js/app.d6dd3920dc66da2ecb99.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/js/manifest.38c5287796908f696f86.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/js/manifest.38c5287796908f696f86.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/js/vendor.f4548f40717ab5d5e2b9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/builded_for_github_pages/static/js/vendor.f4548f40717ab5d5e2b9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.6372ae5160ff5b195d0c6531ae83d6a8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.6372ae5160ff5b195d0c6531ae83d6a8.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.d6dd3920dc66da2ecb99.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.d6dd3920dc66da2ecb99.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.38c5287796908f696f86.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.38c5287796908f696f86.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Memo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/card.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/cards-avers/card.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Memo.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Memo.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Memo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="60">
+              <caret line="4" column="115" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -80,13 +58,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="15">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -146,9 +124,9 @@
         <option value="$PROJECT_DIR$/buildedForGithubPages/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/builded_for_github_pages/index.html" />
-        <option value="$PROJECT_DIR$/src/Memo.vue" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Memo.vue" />
       </list>
     </option>
   </component>
@@ -534,20 +512,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/cards-avers/card.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Memo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -555,6 +519,20 @@
             <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Memo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="115" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
         </state>
       </provider>
     </entry>

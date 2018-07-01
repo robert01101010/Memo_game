@@ -2,7 +2,7 @@
   <div class="memo">
     <div class="memo-cards-container">
       <div class="memo-card" v-for="cardPath in cards" @click="showBottom(cardPath, $event)">
-        <button class="memo-card__front" ref="front" :style="getStyleForCard('./assets/cards-avers/card.png')"></button>
+        <button class="memo-card__front" ref="front" :style="getStyleForCard('./assets/cards-avers/card.eaeabaa.png')"></button>
         <button class="memo-card__back" :style="getStyleForCard(cardPath)" disabled></button>
       </div>
     </div>
