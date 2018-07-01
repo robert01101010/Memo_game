@@ -248,7 +248,7 @@
       width: 100%;
     }
     &__front {
-      background-image: url('./assets/card.svg');
+      background-image: url('assets/card.png');
       z-index: 2;
       &--transform {
         transform: rotateY(180deg);
