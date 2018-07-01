@@ -248,7 +248,7 @@
       width: 100%;
     }
     &__front {
-      background-image: url('assets/card.svg');
+      background-image: url('./assets/card.svg');
       z-index: 2;
       &--transform {
         transform: rotateY(180deg);
@@ -269,7 +269,7 @@
     width: 15%;
     border-radius: 0 10px 10px 0;
     &__score, &__move {
-      @include font-size(22px)
+      @include font-size(22px);
       background: black;
       margin-bottom: 2px;
       @include bp-medium {
