@@ -2,36 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd886cc-056f-4d33-9525-c9cfc6a26a34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createSampleApp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.bf55c6e53c6f8782bac6fdd4d0ea50b3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.bf55c6e53c6f8782bac6fdd4d0ea50b3.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.0ab30e92c0a7896825db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.0ab30e92c0a7896825db.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.ed9dd71f29b06ec0ef8e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.ed9dd71f29b06ec0ef8e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.1bfc57c2d62fc901720a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.1bfc57c2d62fc901720a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexDemo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.bf55c6e53c6f8782bac6fdd4d0ea50b3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.bf55c6e53c6f8782bac6fdd4d0ea50b3.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.d8f7a0c1d5b5ee857a3dbcf45ef5071f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.d8f7a0c1d5b5ee857a3dbcf45ef5071f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/J71CjzuJyNoje.78ffe29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/card.265218a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.0ab30e92c0a7896825db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.0ab30e92c0a7896825db.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.7db999935a037d3e262e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.7db999935a037d3e262e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.ed9dd71f29b06ec0ef8e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.ed9dd71f29b06ec0ef8e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.f5553e9400054718894b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.f5553e9400054718894b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.1bfc57c2d62fc901720a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.1bfc57c2d62fc901720a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.f4548f40717ab5d5e2b9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.f4548f40717ab5d5e2b9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/css/app.d8f7a0c1d5b5ee857a3dbcf45ef5071f.css" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/css/app.d8f7a0c1d5b5ee857a3dbcf45ef5071f.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/css/app.d8f7a0c1d5b5ee857a3dbcf45ef5071f.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/css/app.d8f7a0c1d5b5ee857a3dbcf45ef5071f.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/img/J71CjzuJyNoje.78ffe29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/img/J71CjzuJyNoje.78ffe29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/img/card.265218a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/img/card.265218a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/js/app.7db999935a037d3e262e.js" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/js/app.7db999935a037d3e262e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/js/app.7db999935a037d3e262e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/js/app.7db999935a037d3e262e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/js/manifest.f5553e9400054718894b.js" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/js/manifest.f5553e9400054718894b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/js/manifest.f5553e9400054718894b.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/js/manifest.f5553e9400054718894b.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/js/vendor.f4548f40717ab5d5e2b9.js" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/js/vendor.f4548f40717ab5d5e2b9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildedForGithubPages/static/js/vendor.f4548f40717ab5d5e2b9.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/builded_for_github_pages/static/js/vendor.f4548f40717ab5d5e2b9.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memo.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,11 +40,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Memo.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Memo.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Memo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="280" column="33" selection-start-line="280" selection-start-column="33" selection-end-line="280" selection-end-column="33" />
+            <state relative-caret-position="262">
+              <caret line="250" column="31" selection-start-line="250" selection-start-column="31" selection-end-line="250" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="89" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -83,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/buildedForGithubPages/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builded_for_github_pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="195">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -127,10 +123,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Memo.vue" />
         <option value="$PROJECT_DIR$/indexDemo.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/buildedForGithubPages/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Memo.vue" />
       </list>
     </option>
   </component>
@@ -169,12 +166,17 @@
             <path>
               <item name="memory_game" type="b2602c69:ProjectViewProjectNode" />
               <item name="memory_game" type="462c0819:PsiDirectoryNode" />
-              <item name="buildedForGithubPages" type="462c0819:PsiDirectoryNode" />
+              <item name="builded_for_github_pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="memory_game" type="b2602c69:ProjectViewProjectNode" />
               <item name="memory_game" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memory_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,13 +381,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/card.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Memo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="280" column="33" selection-start-line="280" selection-start-column="33" selection-end-line="280" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indexDemo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -407,10 +402,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildedForGithubPages/index.html">
+    <entry file="file://$PROJECT_DIR$/builded_for_github_pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="89" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Memo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="250" column="31" selection-start-line="250" selection-start-column="31" selection-end-line="250" selection-end-column="31" />
         </state>
       </provider>
     </entry>

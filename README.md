@@ -1,7 +1,7 @@
 ## memory_game
 created in vue.js 2
 
-[Simple Live Demo](https://robert01101010.github.io/memory_game/indexDemo.html)
+[Simple Live Demo](https://robert01101010.github.io/memory_game/builded_for_github_pages/)
 
 ## Screenshot
 
